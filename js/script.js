@@ -48,6 +48,3 @@ if (isNaN(numberUserAge,numberUserKm)){
     console.log(message)
     const finalMessage = alert(message)
 }
-//OUTPUT
-console.log(message)
-const finalMessage = alert(message)
