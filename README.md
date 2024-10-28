@@ -7,8 +7,8 @@ va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va stampato in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Ricordatevi un metodo che abbiamo visto durante le lezioni precedenti.
 
 ## DATI
-Chiediamo all'utente il numero di chilometri che vuole percorrere 
-Chiediamo all'utente la sua età
+Chiediamo all'utente il numero di chilometri che vuole percorrere.
+Chiediamo all'utente la sua età.
 
 ## ESECUZIONE LOGICA
 Calcolo il prezzo del biglietto in base ai chilometri che l'utente vuole percorrere. (0,21 per chilometro).
