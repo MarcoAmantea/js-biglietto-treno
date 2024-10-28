@@ -11,9 +11,11 @@ const numberUserAge = parseInt (userAge);
 console.log(numberUserKm,numberUserAge);
 
 //CONTROLLO SUI DATI DI INPUT
-if (isNaN(numberUserAge,numberUserKm)){
+if (isNaN(numberUserKm)){
     alert("Devi indicare per forza un numero! Non sono ammesse lettere, fai attenzione!")
-} else{ 
+} else if (isNaN(numberUserAge)){
+    alert("Devi indicare per forza un numero! Non sono ammesse lettere, fai attenzione!") 
+} else{
     
     //calcolo del prezzo del biglietto
     const ticketPrice = 0.21 * numberUserKm;
@@ -44,6 +46,7 @@ if (isNaN(numberUserAge,numberUserKm)){
     }else{
         message = `Il totale da pagare è ${ticketPrice.toFixed(2)} €`
     }
+    
     //OUTPUT
     console.log(message)
     const finalMessage = alert(message)
